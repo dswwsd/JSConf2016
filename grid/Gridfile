@@ -1,0 +1,34 @@
+#
+# Gridfile Server Access ID Card
+#
+
+grid_name     = 'alive-friends'
+#grid_password = '464299360'
+
+servers = [
+  'ubuntu@ip1',
+  'ubuntu@ip2',
+  'ubuntu@ip3'
+]
+
+ssh_key = '''
+-----BEGIN RSA PRIVATE KEY-----
+MIICXAIBAAKBgQDRlYsngwJ6vIJ47iX8bHdq9nxMY2KRYLKiyJTXnPkrDCYKtFQ8
+Te8AEVl/Xv5Qw5cM7BDO31Pd/jSlxeJxWbxIZsWRKX68aZSKOFs7nZWa65JdlZvX
+nDVCtDCfRFeYl0p8cbpJ8Pm/DRnOje5vXxvtTD1MUGr+gDIQWsA3M3cRdwIDAQAB
+AoGAT7mVP6iEbu/6qcndxVH1c0jkK6K6whaInYezpvldh1SNvBCw4me6/Mmcw+j8
+0Pg2I4JBOpCVtKKYoF7QLtI13pxLBNZrC9lX8A1jjic1LbnP3aMqlntlMG4y4RvF
+yPnlx3Pw+RXXmNOd2/iOVG6owf9qq1Ytbbvxmv8bMA6CggECQQD0wjickOXyDOoC
+gUohWQgBR5W8bEl5bA5rO5Q0vyo9LzXXZTyPCsuU8mfHhjJRVRftTYMLy7jPX4ct
+NxPkao73AkEA2zXA/U+8v/0A/XBYGnbkDHiAt2Y1iYnZCwswk4TpqZQ1ERNiIek2
+1ydDDljTQUXE4J/I7kZN/osI/vmr6CZxgQJADthk5KIpQEgmPWaoH2OuB53W6CnN
+Pw8dxMVFVPmvTyy44EqkpKxr8qnNP53VGXfGzr7fzuxZVkKeCVEI5NbNuwJBAIEF
+/JecTS57jg+eBl1dSREGBEzuPei8WCGl7muFubp0X1+zlvj6uaqdk1xob79lf2Hu
+6mdEvjdqQltBPSuhJQECQDBxhbuj3dKOzZDWog4aQxtaTRb9x+IajEufpC4erHJG
+h6Auu4X0XVPehuDnQgRtbtL08gt1iKhFAIT6zsWgR40=
+-----END RSA PRIVATE KEY-----
+'''
+
+ssh_public_key = '''
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAAgQDRlYsngwJ6vIJ47iX8bHdq9nxMY2KRYLKiyJTXnPkrDCYKtFQ8Te8AEVl/Xv5Qw5cM7BDO31Pd/jSlxeJxWbxIZsWRKX68aZSKOFs7nZWa65JdlZvXnDVCtDCfRFeYl0p8cbpJ8Pm/DRnOje5vXxvtTD1MUGr+gDIQWsA3M3cRdw== grid-keys
+'''

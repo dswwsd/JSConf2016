@@ -1,0 +1,4 @@
+{
+  	"plugins": ["./custom-plugins/literal-plugin.js", "./custom-plugins/import-plugin.js"],
+  	"presets": ["es2015"]
+}
